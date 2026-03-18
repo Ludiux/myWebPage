@@ -1,0 +1,16 @@
+@font-face {
+    font-family: pixels;
+    src: url(assets/fonts/) format(woff2),
+         url(assets/fonts/) format(woff);
+    font-weight: normal;
+    font-display: swap;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #221C40;
+    color: #FDC800;
+    text-align: center;
+    justify-content: center;
+}
