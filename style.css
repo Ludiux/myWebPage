@@ -26,7 +26,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: #221C40;
+    background-color: #191437;
     color: #FDC800;
     text-align: center;
     justify-content: center;
@@ -35,6 +35,7 @@ body{
     align-items: center;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 .container{
@@ -49,14 +50,18 @@ body{
 
 h1{
     font-family: pixels;
-    font-size: 85px !important;
+    font-size: 9vh !important;
     padding: 20px;
     margin: 0;
     margin: 0!important;
 }
 h2{
-    font-size: 15px;
+    font-size: 2vh;
     padding: 0;
     margin: 0;
     font-family: gameboy;
+}
+
+.container img{
+    height: 70vh;
 }
